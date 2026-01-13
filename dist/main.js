@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("app.js included");new class{constructor(){this.checkEl=document.querySelector("#check"),this.backEl=document.querySelector(".backdate"),this.checkEl.addEventListener("click",(()=>{this.backEl.style.display="block"}))}}})();

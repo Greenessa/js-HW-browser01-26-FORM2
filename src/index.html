@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<form id="myForm">
+  <h1>Поиск билетов</h1>
+  <label for="from">Откуда:</label><br>
+  <input type="text" id="from" name="from"><br><br>
+  <label for="to">Куда:</label><br>
+  <input type="text" id="to" name="to"><br><br>
+  <div class="flexbox">
+    <div class="part1">
+      <label for="adultsNum">Взрослые:</label><br>
+      <input type="text" id="adultsNum" name="adultsNum"><br><br>
+    </div>
+    <div class="part2">
+      <label for="childrenNum">Дети до 10 лет:</label><br>
+      <input type="text" id="childrenNum" name="childrenNum"><br><br>
+    </div>
+  </div>
+  <div class="flexbox">
+    <div class="part1">
+      <label for="babyNum">Дети до 3 лет:</label><br>
+      <input type="text" id="babyNum" name="babyNum"><br><br>
+    </div>
+    <div class="part2">
+      <label for="check">Туда и обратно</label><br>
+      <input type="checkbox" id="check" name="check"><br><br>
+    </div>
+  </div>
+  <div class="flexbox">
+    <div class="part1">
+      <label for="date">Дата:</label><br>
+      <input type="date" id="date" name="date"><br><br>
+    </div>
+    <div class="part2 backdate">
+      <label for="backdate">Обратно:</label><br>
+      <input type="date" id="backdate" name="backdate"><br><br>
+    </div>
+  </div>
+  <button type="button" id="searchBtn">Найти билеты</button>
+</form>
+</body>
+</html>
